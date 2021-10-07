@@ -1,0 +1,74 @@
+:root {
+    --pumpkin: #ff6d00ff;
+    --yellow-orange-color-wheel: #ff9100;
+    --orange-peel: #ff9e00ff;
+    --russian-violet: #240046ff;
+    --purple: #5a189aff;
+    --french-violet: #7b2cbfff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-orange {
+    background: var(--orange-peel);
+    color: var(--russian-violet);
+}
+
+.bg-violet {
+    background: var(--russian-violet);
+    color: var(--orange-peel);
+}
+
+.bg-black {
+    background: rgb(16, 12, 16);
+}
+
+.text-black {
+    color: rgb(16, 13, 16);
+}
+
+.text-orange {
+    color: var(--yellow-orange-color-wheel);
+}
+
+.text-orange-secondary {
+    color: var(--pumpkin);
+}
+
+.card-info {
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}
+
+.card-info:hover {
+    background: var(--orange-peel) !important;
+    color: rgb(16, 13, 16);
+    transform: translateY(-1.5em);
+    -webkit-transform: translateY(-1.5em);
+    -moz-transform: translateY(-1.5em);
+    -ms-transform: translateY(-1.5em);
+    -o-transform: translateY(-1.5em);
+}
+
+.next:hover {
+    animation: next .3s ease-out infinite alternate;
+}
+
+@keyframes next {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(5px);
+    }
+}
