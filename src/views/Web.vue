@@ -39,11 +39,11 @@
 
                     <div class="col-lg-6 col-12 text-center align-items-center d-flex justify-content-center">
                         <router-link to="/unity">
-                            <img src="../assets/img/icon/arrow-back-circle.svg" class="img-fluid next" width="64"
+                            <img src="../assets/img/icon/arrow-back-circle.svg" class="img-fluid next" width="44"
                                 alt="">
                         </router-link>
                         <router-Link to="/social">
-                            <img src="../assets/img/icon/arrow-forward-circle.svg" class="img-fluid next" width="64"
+                            <img src="../assets/img/icon/arrow-forward-circle.svg" class="img-fluid next" width="44"
                                 alt="">
                         </router-Link>
                     </div>

@@ -24,7 +24,7 @@
           </div>
           <div class="col-lg-2 col-12">
             <router-Link to="/unity">
-              <img src="../assets/img/icon/arrow-forward-circle.svg" class="img-fluid next" width="64" alt="">
+              <img src="../assets/img/icon/arrow-forward-circle.svg" class="img-fluid next" width="44" alt="">
             </router-Link>
           </div>
         </div>

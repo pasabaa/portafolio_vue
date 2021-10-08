@@ -11,10 +11,10 @@
 
                 <div class="text-center mt-4">
                     <ul class="nav justify-content-center">
-                        <li class="nav-item mx-4"><a class="nav-link" href=""><img src="../assets/img/icon/logo-twitter.svg" class="img-fluid" width="34" alt=""></a></li>
-                        <li class="nav-item mx-4"><a class="nav-link" href=""><img src="../assets/img/icon/logo-instagram.svg" class="img-fluid" width="34" alt=""></a></li>
-                        <li class="nav-item mx-4"><a class="nav-link" href=""><img src="../assets/img/icon/logo-reddit.svg" class="img-fluid" width="34" alt=""></a></li>
-                        <li class="nav-item mx-4"><a class="nav-link" href=""><img src="../assets/img/icon/logo-github.svg" class="img-fluid" width="34" alt=""></a></li>
+                        <li class="nav-item mx-4"><a class="nav-link" href="https://twitter.com/pablo_san_"><img src="../assets/img/icon/logo-twitter.svg" class="img-fluid" width="34" alt=""></a></li>
+                        <li class="nav-item mx-4"><a class="nav-link" href="https://www.instagram.com/pasabaaa/"><img src="../assets/img/icon/logo-instagram.svg" class="img-fluid" width="34" alt=""></a></li>
+                        <li class="nav-item mx-4"><a class="nav-link" href="https://www.reddit.com/user/PaSaball"><img src="../assets/img/icon/logo-reddit.svg" class="img-fluid" width="34" alt=""></a></li>
+                        <li class="nav-item mx-4"><a class="nav-link" href="https://github.com/pasabaa"><img src="../assets/img/icon/logo-github.svg" class="img-fluid" width="34" alt=""></a></li>
                     </ul>
                 </div>
                 </div>
@@ -24,10 +24,10 @@
 
             <div class="col-12 text-center align-items-center d-flex justify-content-center bg-black">
                 <router-link to="/web">
-                    <img src="../assets/img/icon/arrow-back-circle.svg" class="img-fluid next" width="64" alt="">
+                    <img src="../assets/img/icon/arrow-back-circle.svg" class="img-fluid next" width="44" alt="">
                 </router-link>
                 <router-Link to="/">
-                    <img src="../assets/img/icon/arrow-forward-circle.svg" class="img-fluid next" width="64" alt="">
+                    <img src="../assets/img/icon/arrow-forward-circle.svg" class="img-fluid next" width="44" alt="">
                 </router-Link>
             </div>
         </div>

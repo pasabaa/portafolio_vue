@@ -46,10 +46,10 @@
 
           <div class="col-12 text-center mt-4">
             <router-link to="/">
-              <img src="../assets/img/icon/arrow-back-circle.svg" class="img-fluid next" width="64" alt="">
+              <img src="../assets/img/icon/arrow-back-circle.svg" class="img-fluid next" width="44" alt="">
             </router-link>
             <router-Link to="/web">
-              <img src="../assets/img/icon/arrow-forward-circle.svg" class="img-fluid next" width="64" alt="">
+              <img src="../assets/img/icon/arrow-forward-circle.svg" class="img-fluid next" width="44" alt="">
             </router-Link>
           </div>
 
