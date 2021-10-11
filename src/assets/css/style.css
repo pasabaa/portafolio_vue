@@ -19,6 +19,11 @@ body {
     color: var(--russian-violet);
 }
 
+.bg-whitesmoke {
+    background: whitesmoke;
+    color: rgb(16, 12, 16);
+}
+
 .bg-violet {
     background: var(--russian-violet);
     color: var(--orange-peel);
@@ -48,7 +53,7 @@ body {
     -o-transition: all .2s ease;
 }
 
-.card-info:hover {
+/* .card-info:hover {
     background: var(--orange-peel) !important;
     color: rgb(16, 13, 16);
     transform: translateY(-1.5em);
@@ -56,6 +61,41 @@ body {
     -moz-transform: translateY(-1.5em);
     -ms-transform: translateY(-1.5em);
     -o-transform: translateY(-1.5em);
+} */
+
+.card-info:after {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    background: var(--orange-peel);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+
+.card-info:hover::after{
+    height: 100%;
+    width: 100%;
+}
+
+.card-info:hover h1{
+    z-index: 1;
+    color: rgb(16, 12, 16) !important;
+}
+
+.card-info:hover p{
+    z-index: 1;
+    color: rgb(16, 12, 16) !important;
 }
 
 .next:hover {
@@ -74,4 +114,8 @@ body {
     100% {
         transform: translateX(5px);
     }
+}
+
+.over-flow-x {
+    overflow-x: hidden !important;
 }
